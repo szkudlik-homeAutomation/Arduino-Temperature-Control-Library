@@ -9,14 +9,9 @@
 // version 2.1 of the License, or (at your option) any later version.
 
 // set to true to include code for new and delete operators
-#ifndef REQUIRESNEW
-#define REQUIRESNEW false
-#endif
 
-// set to true to include code implementing alarm search functions
-#ifndef REQUIRESALARMS
-#define REQUIRESALARMS true
-#endif
+#define REQUIRESNEW true
+#define REQUIRESALARMS false
 
 #include <inttypes.h>
 #ifdef __STM32F1__
